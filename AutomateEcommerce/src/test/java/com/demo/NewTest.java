@@ -58,10 +58,7 @@ public class NewTest {
 		public void beforeClass(String browser)
 		{
 switch(browser) {
-//case "chrome": System.setProperty("webdriver.chrome.driver",
-//		"C:\\\\Users\\\\gpjpr\\\\Desktop\\\\All Desktop files\\\\Praveen-Backup\\\\My Repository\\\\Assisted and Practice Project\\\\phase 5\\\\selenium\\\\chromedriver\\\\chromedriver.exe");
-//driver = new ChromeDriver();
-//break;
+
 case "chrome": WebDriverManager.chromedriver().setup();
 driver=new ChromeDriver();
 break;
